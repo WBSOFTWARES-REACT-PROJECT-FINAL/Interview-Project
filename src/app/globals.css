@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn_style{
+    color: #292929;
+    border-radius: 6px;
+    padding: 9px;
+    font-size: 15px;
+    font-weight: 500;
+}
+:hover.btn_style{
+    background-color: #F6F6F6;
+    
+}
+
+.icon{
+    background-color: rgb(6 40 75 );
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.border_shadow {
+  border: 1px solid #ECECEC;
+  box-shadow: 0 2px 6px #ACACAC;
+  background-color: white;
+  padding: 16px;
+}
+
+.table{
+  border: 1px solid rgb(229 231 235);
+  padding: 8px;
+}
